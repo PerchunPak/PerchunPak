@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2295" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2375" class="">
     <defs>
         <style/>
     </defs>
@@ -1968,6 +1968,16 @@
                 <section class="column chart">
                     <h3>Language activity</h3>
                     <div class="chart-bars horizontal">
+                        <div class="entry">
+                            <span class="name">Python</span>
+                            <div class="bar" style="width: 56.7598719316969%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="value">71%</span>
+                        </div>
+                        <div class="entry">
+                            <span class="name">Java</span>
+                            <div class="bar" style="width: 23.240128068303093%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">29%</span>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -3773,17 +3783,17 @@ Also don't forget paste your logs on pastebin sites, like https://pastebin.org
             </div>
                         <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-              Бот добавляет цифровое айпи, вместо домена
+              Остальные переменные тоже
             </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">04854563</span>
-                            <span class="code">src/commands/add_server.py</span>
+                            <span class="code">65f062de</span>
+                            <span class="code">tests/test_metods_for_commands.py</span>
                             <span class="code">
-                                <span class="snippet additions">++1</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet additions">++2</span>
+                                <span class="snippet deletions">--2</span>
                             </span>
                         </div>
                     </section>
@@ -3791,23 +3801,26 @@ Also don't forget paste your logs on pastebin sites, like https://pastebin.org
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -32,7 +32,7 @@</span>
-async def add_server(self, ctx, ip: str):
-<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">       await self.metods_for_commands.wait_please(ctx, ip)
-</span><span class="token prefix unchanged"> </span><span class="token line">       status, dns_info, info = await self.metods_for_commands.ping_server(ip)
-</span><span class="token prefix unchanged"> </span><span class="token line">       if status:
-</span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">           try: await self.bot.db.add_server(info.ip, dns_info.port, ctx.author.id)
-</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">           try: await self.bot.db.add_server(dns_info.host, dns_info.port, ctx.author.id)
-</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">           except UniqueViolationError:  # сервер уже добавлен
-</span><span class="token prefix unchanged"> </span><span class="token line">               embed = Embed(
-</span><span class="token prefix unchanged"> </span><span class="token line">                   title=f'Не удалось добавить сервер {ip}',</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -45,9 +45,9 @@</span>
+async def fail_message_offline(bot, metods_for_commands):
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   @mark.asyncio
+</span><span class="token prefix unchanged"> </span><span class="token line">   async def test_parse_ip_alias(bot, database, metods_for_commands):
+</span><span class="token prefix unchanged"> </span><span class="token line">       """Тест на проверку алиаса в методе MetodsForCommands.parse_ip"""
+</span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">       await database.pool.execute("INSERT INTO sunservers (numip, port, owner) VALUES ($1, 25565, 0);", "127.0.0.29")
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">       await database.pool.execute("INSERT INTO sunservers (ip, port, owner) VALUES ($1, 25565, 0);", "127.0.0.29")
+</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">       await database.pool.execute("UPDATE sunservers SET alias = $2 "
+</span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">                                   "WHERE numip = $1 AND port = 25565;", "127.0.0.29", "тест28")
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">                                   "WHERE ip = $1 AND port = 25565;", "127.0.0.29", "тест28")
+</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">       answer = await metods_for_commands.parse_ip("тест28")
+</span><span class="token prefix unchanged"> </span><span class="token line">       assert answer == ServerInfo(True, "тест28", "127.0.0.29")
+</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Dec 2021, 19:19:44 (timezone Europe/Kiev) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 3 Dec 2021, 20:14:57 (timezone Europe/Kiev) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
