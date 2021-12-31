@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2369" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2449" class="">
     <defs>
         <style/>
     </defs>
@@ -3805,16 +3805,16 @@ One question is left, how disable firewall in my MIUI? Seems like this question 
             </div>
                         <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-              Сделал staticmethod из clear_return
+              NinjaSnail1080 уже не автор этого бота
             </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">87ff2c47</span>
-                            <span class="code">src/database.py</span>
+                            <span class="code">093b409b</span>
+                            <span class="code">src/commands/other.py</span>
                             <span class="code">
-                                <span class="snippet additions">++2</span>
+                                <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--2</span>
                             </span>
                         </div>
@@ -3823,25 +3823,24 @@ One question is left, how disable firewall in my MIUI? Seems like this question 
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -67,8 +67,8 @@</span>
-async def make_tables(self):
-<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">       db_entries = (sunpings, sunservers)
-</span><span class="token prefix unchanged"> </span><span class="token line">       for db_entry in db_entries:
-</span><span class="token prefix unchanged"> </span><span class="token line">           await self.pool.execute(db_entry)
-</span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">
-</span><span class="token prefix deleted">-</span><span class="token line">   async def __clear_return(self, result: list):
-</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   @staticmethod
-</span><span class="token prefix inserted">+</span><span class="token line">   async def __clear_return(result: list):
-</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">       """Что бы не было копипаста, этот метод
-</span><span class="token prefix unchanged"> </span><span class="token line">       возвращает чистый ответ метода.
-</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -58,8 +58,7 @@</span>
+async def about(self, ctx):
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">       embed.add_field(name="Лицензия", value="[Apache License 2.0]"
+</span><span class="token prefix unchanged"> </span><span class="token line">                                              "(https://github.com/PerchunPak/PingerBot/blob/main/LICENSE)")
+</span><span class="token prefix unchanged"> </span><span class="token line">       embed.add_field(name="Открытый код", value="https://github.com/PerchunPak/PingerBot", inline=False)
+</span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">       embed.set_footer(text="Примечание: Оригинальный автор не Perchun_Pak#9236, а NinjaSnail1080#8581")
+</span><span class="token prefix deleted">-</span><span class="token line">       # TODO Убрать упоминания об NinjaSnail1080
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">       embed.set_footer(text="Примечание: Вы можете предлагать любые идеи в ЛС Perchun_Pak#9236")
+</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">       await ctx.send(embed=embed)
+</span></span>
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   @command(name="пригласить", aliases=["invite", "приглос", "приг"])</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 31 Dec 2021, 08:15:52 (timezone Europe/Kiev) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 31 Dec 2021, 09:13:11 (timezone Europe/Kiev) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
