@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2326" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2273" class="">
     <defs>
         <style/>
     </defs>
@@ -634,6 +634,26 @@
                 <section class="column chart">
                     <h3>Language activity</h3>
                     <div class="chart-bars horizontal">
+                        <div class="entry">
+                            <span class="name">Python</span>
+                            <div class="bar" style="width: 78.35228570123762%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <span class="value">98%</span>
+                        </div>
+                        <div class="entry">
+                            <span class="name">Shell</span>
+                            <div class="bar" style="width: 1.0704662739188018%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">1%</span>
+                        </div>
+                        <div class="entry">
+                            <span class="name">Dockerfile</span>
+                            <div class="bar" style="width: 0.3141982920034708%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">0%</span>
+                        </div>
+                        <div class="entry">
+                            <span class="name">Makefile</span>
+                            <div class="bar" style="width: 0.26304973284011507%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">0%</span>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -2440,29 +2460,29 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Put documentation for each module on its own page
+                            Add and upgrade some docstrings for docs
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">1b01880d</span>
-                            <span class="code">docs/conf.py</span>
-                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--0</span></span>
+                            <span class="code">0bfcfd43</span>
+                            <span class="code">mc_plugin_helper/main.py</span>
+                            <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--0</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -139,6 +139,7 @@</span><br />def _get_project_meta():<br /># Configuration for auto-run apidoc on each build\<br />apidoc_output_dir = "../docs/modules"<br />apidoc_module_dir = "../mc_plugin_helper"<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">apidoc_separate_modules = True<br /></span></span>apidoc_toc_file = False<br />apidoc_module_first = True<br />apidoc_extra_args = ["--private"]</code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,3 +1,5 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"""Main point to run script."""<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span></span>from mc_plugin_helper.cli import CLI<br />from mc_plugin_helper.config import Config</code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 Feb 2022, 22:12:48 (timezone Europe/Kiev) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 13 Feb 2022, 23:10:33 (timezone Europe/Kiev) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
