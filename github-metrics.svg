@@ -2,7 +2,7 @@
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}.no-wrap{white-space:nowrap}.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution .gauge-arc,.contribution .gauge-base{stroke:currentColor;stroke-width:4}.contribution .gauge text{fill:currentColor;font-size:15px;letter-spacing:-2px}.contribution .gauge{margin:0 4px;color:inherit}.contribution .icon{fill:currentColor;width:10px;height:10px;margin-left:-9px;margin-top:8px;color:inherit;filter:brightness(.5)}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.habits{margin:0;list-style-type:none;padding-left:37px}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{fill:currentColor;font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.topics{display:flex;flex-wrap:wrap}.topics img{border-radius:5px;margin:4px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry,.repository{display:flex;flex-direction:column}.chart-bars .entry{flex-grow:1;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.field.license.details,.field.license.details small{display:flex;justify-content:space-between}.field.license.details small{color:#666;text-align:right}.introduction{white-space:normal;margin:0 13px 2px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none;position:relative}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}.no-wrap{white-space:nowrap}.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution .gauge-arc,.contribution .gauge-base{stroke:currentColor;stroke-width:4}.contribution .gauge text{fill:currentColor;font-size:15px;letter-spacing:-2px}.contribution .gauge{margin:0 4px;color:inherit}.contribution .icon{fill:currentColor;width:10px;height:10px;margin-left:-9px;margin-top:8px;color:inherit;filter:brightness(.5)}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.habits{margin:0;list-style-type:none;padding-left:37px}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{fill:currentColor;font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.topics{display:flex;flex-wrap:wrap}.topics img{border-radius:5px;margin:4px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry,.repository{display:flex;flex-direction:column}.chart-bars .entry{flex-grow:1;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.field.license.details,.field.license.details small{display:flex;justify-content:space-between}.field.license.details small{color:#666;text-align:right}.introduction{white-space:normal;margin:0 13px 2px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none;position:relative}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -191,7 +191,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/>
                                     </svg>
-                                    74 MB used
+                                    74.3 MB used
                                 </div>
                                 <div class="field ">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -463,7 +463,7 @@
                 <div class="row">
                     <ul class="habits">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 44.3 characters per line of code written</li>
+                        <li>Has approximately 44.2 characters per line of code written</li>
                         <li>Mostly pushes code around 16:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
@@ -558,8 +558,8 @@
                         16
                     </div>
                     <div class="entry">
-                        <span class="value">10</span>
-                        <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                        <span class="value">9</span>
+                        <div class="bar" style="height: 30px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                         17
                     </div>
                     <div class="entry">
@@ -583,8 +583,8 @@
                         21
                     </div>
                     <div class="entry">
-                        <span class="value">5</span>
-                        <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                        <span class="value">6</span>
+                        <div class="bar" style="height: 20px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                         22
                     </div>
                     <div class="entry">
@@ -619,8 +619,8 @@
                             Wed
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 7.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">7</span>
+                            <div class="bar" style="height: 8.75px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             Thu
                         </div>
                         <div class="entry">
@@ -629,8 +629,8 @@
                             Fri
                         </div>
                         <div class="entry">
-                            <span class="value">14</span>
-                            <div class="bar" style="height: 17.5px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">13</span>
+                            <div class="bar" style="height: 16.25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             Sat
                         </div>
                     </div>
@@ -640,22 +640,22 @@
                     <div class="chart-bars horizontal">
                         <div class="entry">
                             <span class="name">Python</span>
-                            <div class="bar" style="width: 77.30362402356255%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <div class="bar" style="width: 77.38623103850641%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                             <span class="value">97%</span>
                         </div>
                         <div class="entry">
                             <span class="name">Makefile</span>
-                            <div class="bar" style="width: 1.9198360865667818%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <div class="bar" style="width: 1.8610193897564486%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             <span class="value">2%</span>
                         </div>
                         <div class="entry">
                             <span class="name">Shell</span>
-                            <div class="bar" style="width: 0.6003329491612243%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <div class="bar" style="width: 0.5819409617915042%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             <span class="value">1%</span>
                         </div>
                         <div class="entry">
                             <span class="name">Dockerfile</span>
-                            <div class="bar" style="width: 0.17620694070943782%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <div class="bar" style="width: 0.17080860994562924%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             <span class="value">0%</span>
                         </div>
                     </div>
@@ -1750,6 +1750,27 @@
                                 <div class="details">
                                     <div>on branch <span class="code">feat/config</span></div>
                                     <div class="commit">
+                                        <div class="sha">#68490b7</div>
+                                        <div class="message">Big refactor of code</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">17 Feb 2022, 22:30:48</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">fire-squad/autodonate</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">feat/config</span></div>
+                                    <div class="commit">
                                         <div class="sha">#4a49015</div>
                                         <div class="message">Fix mypy crashing, because types not installed
 
@@ -1778,47 +1799,6 @@
                                     </div>
                                 </div>
                                 <div class="timestamp">17 Feb 2022, 19:16:33</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">fire-squad/autodonate</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#06d14cb</div>
-                                        <div class="message">
-                                            Remove black
-
-- Update poetry.lock
-
-- Revert "Обновил бэйджи, убрал упоминания wemake"
-
-  This reverts commit 5b2487db3eba30c069df1853eda9b4ba5af13601.
-
-- Revert "Added black to dependencies
-                                            <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
-                                            "
-
-  This reverts commit e14594faeb8a3d82404bd01bcd62e733f8a050cc.
-
-- Revert "black moved to dev, dependencies updated
-                                            <img class="gemoji" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAPhklEQVR4Ae3BCdCdZXnH4d/9vM+7nPNtSSAQwiqFDrigHauoaFkGcGldqtUCg0udiqLY1opTEUfAimhhAKm1YrXue23HglUUO6gtIGMXLYogVsIikOXbz/Yu978JBgkxCed8X+I4Y6+L//drztjNnnX5s55UNf5GzI4x1+SayZAcPEXbwFgy836t2/plfSZwHbuRnfXhE9ldbpmxS+S8ASOQGQQBxliEIyYCWYCYGUnGSORQ9YTLNDfQB4DXsJtEhcju8MONerfc30gBtA2MzYwtOsD3+s6RLWO8gmzMSFuMpJg0utOyKXj1xkH4L+BKdoNYEViuWzf1n5soeRMFMGbsSAXcPBCPzg3NiJaMtMXwDForjWaDmIzN5etOm/wg0LBMceZlYyzH5/m8nXDpSe+WyWgZSOxM08D3uw2PaSVoRrSAtDCGZpBPGD6rYtXHFz4KnM4yxVUfX2A5jl9/4qvkOpJx4wFilxz4frfhca2AzULYSySpMay0BWUHplyn/qQcnA3cxzLE6abPUv1g3YZsn/aac5UYZGJYDXBL3zmqMGzWaO8FZgwtnzDqUmEV6ReBo9nG+n5nnzXZ5ErgVoYQ9/aCpVrd3u9PJB1ECxAj6btzx1zgsBVG2RH5uDGsJIO0BSsJT14/Xz8VuIHNQhr+9vCJiTMWGn0HOJohRKJYio2Lk+Om6b9QYhABMRLrGxu6zuoW3RUW2rEQIWFo2ThUPdEu7B97ZXhDO+P9YylTjjQIdgZDioPAktzf2XSuyfamLUYmoA8Y3+wOwkUTqb5cLkAxZQwrBMjGYNzDmvHIp9lCMNfXTSn6LkOK6cAZ1e193ys0nKkMSAAxEuuBHCWpzrmzU12fZ8kPVpo9OrZFkhrDysaNkIIaKDuiLHGbzF/ECKJN5oyq3tR7O9gULUYnYAAWuNobu57N6jx9TtU0/9ufV2ivYiRJBnUfmgqm+82/0O/dwwhiOdtjFLdN20GJ9EplQADESKwLcuooezNb3bFusO6Q1faVvc2eU/chFgxNgsGiKEV999yGUxhRvHtuA6MIvtfbwAorQGI0DvTBAp9pTD9gG/M/6P7B+OPH55hXOpYZZgyl6kJTwWzPP7T/5OoOI4r7T65mFD+e1lEKQsboumDQr0nOZTv37jvWa/frS/YN8Zy6C2mbRySJctHoVeoffMbXX8sSxIPP+Dqj+NFFx38m1DzJ5oE2KDKcBqwEmT4UvL6THfjJNG8ZS/VaFjWVtAwzdqnsQNM4iyUXLl55orMEcd2VJzKKw1dx6e2btN6a5iLm7QDLQC0gsGtdkGw+yXU+u7BY2XntqMvrAcScnZLDYFEslswUkXewRLGIjOyx+9onbrmbf6hTvTVU4c+ofEw5UADGL6rBKpDpr+sBG9mJQ/ex508kvJ3NLLBLZUcIWBjo9SxDXBiIpThgddIH3nrnTHWlhXAxfb2YgQUVQAYYP2ddttgQV6x+FzvwhMlmv8Xe3FcmUzsqmEhbhhyqPkgCGXIeIBdyqPuwUOqusYxPsgxxLGNZjtw3vQs45YcbeE/j9eV0eTIDQy1BBKtANUj6K990/yLbOXSFXaAqfetUSkBCgrIjyg7bEA+SjAa8V+nemK16Mtu5+a77H+dmbyYQY2V/CdzMLsRb72nY3nXnXWd/+sHn7cNWs71qvImKbOcTZ37lNkD8zA3A0cdceNzLabjQFtlfEcwNjDtmmo1XsAMhW5t2Kr/Z8fnamTfCPLJZEjZVtd8naX2S5+upuBe4lW31FnjQ/EI2MVPNv5MQXo2UImgSnjY3N30E0GEn7Kizj2KLp/3m6tmxlClG0Mh8pscHgDPZxs0bZtpFHD/XZC8DzUZLXwXcyB5SN9WpZlwiWEsGKgAHWwQZFwFvYSfsmL88li0On8wOT3P/0kTO4WyWpJDk7FLdF01lTCt7JvBVfsluv6f/GNH8jWHHkoBagsjPWQdCEzplzRHA3eyAHX3+cWzrsJW8ZqodLssTK1orIcnYKTXQ3QSLpW8EVvNLclut8XpGF6jRWRgZhaFMYDycQ1gwNvsY8HJ2IHnUCQeTGCQGicHcgO+s3mv8I6nXfx4CJBk7ZcYDktraCxWtWnZtLaOWUcuoZdQyahm1jFpGLaOWUcuoZdQyahm1jFpGLaOWUcuoZdQyahm1jFrG7ev1h03Xr5bbyWQkagORHTNAhtU8NpiuMrjPAAMMMCAGxPb63c7HiswIGYhdS9tQ9WHcOfuni/4uYJY9YDZjfLCpuSrIjiOCWo4SHpFyYQNLJN4NnMx2YiMe5tC9syMn0ub4mEGSAuIR5ePgMyRTOVcDT2cPuH+9vybIjlMblAoMEMPJBT07yYOeCVzDNqIjtpVac3ViZuk4iOGEDJIcpgjHbCzDicC17GbBBqkEHsQDxNCUQhgADRffcMG3vgqIrQzxc6decfxL9mnbZ7MxyMYZiRy6m6BT6X5gDbvZ9zZ19w1lehvRJjUmRmWlYT1IQjgD+Du2Sp4RjuXgbxzCwd84hP0m+PcsUuSTgDEaAwmSmvGZTh3Kyq8rK6esnLJyysopK6esnLJyysopK6esnLJyysopK6esnLJyysopK6esnLJyVqZJZ3ZgLWs4lsQgMJoErDLU6ImphfcFrA4YMZGxxdq9eVc7talsHAgghlf3oOqBBRAwNRbP+eG96y8GFtmNclt9Uanmj+mzVuNiVF6AdVhbUr8SeB+bxZKaLcZCemYIRswFYmhNBYN56NXqpIm1o2GZkR641+qrgOPZvfo/ng7nUzcfsNJQKkahRJgZcnse8D42i3JjizTxiZAZMkYyWIDSze++a+5RK1av2CdP/ZqJzPafyHTsPb3maODb7EbXv+3fPviU855xlvU4SonAGIkSCJWeyFbJQb9zEAasnYrnJSmWZAytGUDVhYVSH21P5J8KQRsEl3b6sjQJz0jcji0svLewQGGBwgKFBQoLFBYoLFBYoLBAYYHCAoUFCgsUFigsUFigsEBhgcICj//2IWzoVT8x53QMFMVIGrCGCLyDzaIQWwxqH4TKipThSGKwGOjX3vv467/xSh7u/Kde8NQrDlnRPoBlMFXvbap4GfBjtvGo8dY16xbKr1lfJykFjOE5SDbPVlEytuhU+mYWOLkeQJLxiKouNLXTqTj3tPccK7a3gmmop1kiKTlhZRFet17VOuBitmNl80bF8J/WJ3ohhiIItSHxH2wVJJBg00x1auN41QEECBAgQIAAAQI1UC1Ct+S+PHBZHiAPkAfIA+QB8gB5gDxAHiAPkAfIA+QB8gB5gDxAHiAPkAfIA+QBsqT+MAhT0jUlmBJMCaYEU8KB++T/o8CnrDRwhmKVIQdL9GFLhCUiWiK2mPMwPT/QNSvNnl2XkGTsVNk1XNBpeCl7gOr691ePx4NAqCk77ETdJG+O+ItCz8a8LXZJYH1Io/4b+CxbxWjiQTPJ4JQJL2ZCh5Ck7JA3UHdhsWy+WwSuZQ8IRfI+Q2xRuXXZiQMn/d57F/0KajtHtSCyU2Fg7L8iVjGt38E24tqVPMST+dlaX9or2HPrUiQZv6BchNqlTTM6e5rmCEZQ9soucCe7cNCq4uVrJsMagpAbWQwlu9DrL1zYyif+KOmHNc2YsyNTIXDgqoi7boHkC2wjFiRs676fzp46eciKudCxJEnFtpoSmoGxft5tY9+/BsYoouUocP30wvoTgAE7MLlf+1JDZOMwmIPxzD7dwDxbCBk0bGHCnfrxB0zVLmXuASUJBPFzgnYMFGbULt/Y8Cy2ExfFw4zvP9VZKP2L0ZIXNqURUvGgqmOU7twzqPCCkZnABva0lRN7nwp8hO0cNJWe1Y5hVWyJkEI6LqxvhUHBZu7iIcZDjIcYyJBECIa7kGChz/tz7F62E/PG2N7iYvelY6vazw8dS/IVYou6D3UFd/VqmlQshQRJ3zAla9mBicLeSSJiSwhICkgKMTqxhVz0p41e4zN5xuvYgZhnYnv5qna3U+oLabCXeGmEFKoOdBuxYdCwZAIh5A3bO2hVck6RMJG2+BmxbNWC4Y1YcE5lJ+KCs0ObFu9++Vh64AttkZjk4I1xZ69mT5nIw7mWQFIIsXxeGdUAFipuyOEadiLmzg6tnTyw3yn9czGE09RAp3bmy4ZlESDAeJhDViWXFQljseU8QCyPoFyAqqbuzi88h12I3fkFduau/ZJXPL7fenGKpRvKBkksi0ASmLGt8Ty8xhJIMpBYtrpneA0Lpb8zbY/NsgsxbY+xM4fOUXWCPrkit1d0+s6ecPB4dnieqEhygbFsaqDqQqfy+/PIeTyCmEd2qT3WP6Pstk5rBpaRsTwCBAhjq3UL5Y+mxqPbwEJsieUaLEAj01xVv4AhxLmqZlfmZmPVTvhIFGdQg6JYDgGGs62Fgf/TiiS8qB6IJGfJmgE0lTHXb64tLN7IEGJhkUdy/2J8XZo0J4RBOKxJGpZMgADnYTb0rz+lnT990TqWJ6nAGJ2g7gSqWmW/238BQ0p+45h9qKuauqqpq5q6qqmrmrqqqauauqrJKX2mS1fO82RCQSxVKA0Z/yr4lgABg3J/z6JiO4bjMCNERlZ1jLqE2b7eFGL8VoiRECMhRkKMhBgJMRJiJMRIiJEQIyHmBTEviHlBzAtiXhDzgpgXxLwg5gUxL7jpkpv+HnRTUgasYbe7e8bP71bNXN0TcgECBAgQIECAAAECBIhmAE0fOgO/Iw+6LA8iDyIPIg8iDyIPIg8iDyIPIg8iDyJ5wskHEg2iQTSIBtEgGkSDaBANHnvSgUzP11/CwvNDFVYhA4SZMSxzCFXApS9LXC+BBBJI0IrcPZYmLxQQUpAbdc9oBkZTGV4ZXhleGV4ZXhl1z6i60K/oVhPFbymPC8ojyiPKI8ojyiPKI8ojyiPKI8ojyiOxmSwY1qGTxb133t95YjnfXGaVnW5lyHiAMTSjF6OuYgd+uth8op2Hd4xZcnBSiHLe8AZcLjYLFswQ26oaNZ1KN3YHG55Dh3lGZM8+/zCWYr6770TPy2e766hgtpIhyJk3D58GvsdO7LuSp6yZiDckKaiB6T6fBE5nD4lFvi9LUeQsQPY54HPsXjcuVPrOpNlvs5ncN7IHBbkjd+SO3JE7ckfuyB25I3fkjtyRO3JH7sgduSN35I7ckTtyR+7IHbkjd+SO3JE7ckfuyB25I3fkjtyRO/MbF3+3cTmbCS+FIxzhCEc4whGOcIQjHOEIRzjCEY5whCMc4QhHOMIRThTOr5rWytb6uUHzzyuL+AJISvagCAm/imZ/lJ06dmQ509S+jj3Ifu+Cp/DrLPBr7v8Ali3y7qi7QJoAAAAASUVORK5CYII=" height="16" width="16" alt="" />
-                                            "
-
-  This reverts commit 0f1f9d4ffb44821258b10aa33aca100487a97ad1.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">17 Feb 2022, 19:13:00</div>
                             </section>
                         </div>
                     </section>
@@ -2544,7 +2524,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 17 Feb 2022, 22:11:50 (timezone Europe/Kiev) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 17 Feb 2022, 23:13:11 (timezone Europe/Kiev) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
