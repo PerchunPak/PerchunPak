@@ -19,7 +19,7 @@ jobs:
           user: PerchunPak
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Kiev
+          config_timezone: Europe/Warszawa
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
