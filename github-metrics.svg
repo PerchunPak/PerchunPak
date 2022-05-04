@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2393" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2379" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}.no-wrap{white-space:nowrap}.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution .gauge-arc,.contribution .gauge-base{stroke:currentColor;stroke-width:4}.contribution .gauge text{fill:currentColor;font-size:13px}.contribution .gauge{margin:0 6px;color:inherit;transform:scale(1.4) translateY(1px)}.contribution .icon{fill:currentColor;width:10px;height:10px;margin-left:-9px;margin-top:8px;color:inherit;filter:brightness(.5)}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{fill:currentColor;font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.screenshot{width:452px;height:315px;margin:8px 14px 4px;border-radius:5px}.topics{display:flex;flex-wrap:wrap}.topics img{border-radius:5px;margin:4px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry,.repository{display:flex;flex-direction:column}.chart-bars .entry{flex-grow:1;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .entry .empty{width:100%;text-align:center}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.field.license.details,.field.license.details small{display:flex;justify-content:space-between}.field.license.details small{color:#666;text-align:right}.introduction{white-space:normal;margin:0 13px 2px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info,.markdown a{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none;position:relative}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown ul{padding-left:24px}.markdown a{text-decoration:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.space{margin-left:7px}.blue{color:#58a6ff}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.horizontal{justify-content:space-around}.no-wrap{white-space:nowrap}.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution .gauge-arc,.contribution .gauge-base{stroke:currentColor;stroke-width:4}.contribution .gauge text{fill:currentColor;font-size:13px}.contribution .gauge{margin:0 6px;color:inherit;transform:scale(1.4) translateY(1px)}.contribution .icon{fill:currentColor;width:10px;height:10px;margin-left:-9px;margin-top:8px;color:inherit;filter:brightness(.5)}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{fill:currentColor;font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.topics{display:flex;flex-wrap:wrap}.topics img{border-radius:5px;margin:4px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry,.repository{display:flex;flex-direction:column}.chart-bars .entry{flex-grow:1;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.field.license.details,.field.license.details small{display:flex;justify-content:space-between}.field.license.details small{color:#666;text-align:right}.introduction{white-space:normal;margin:0 13px 2px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info,.markdown a{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none;position:relative}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown ul{padding-left:24px}.markdown a{text-decoration:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -191,7 +191,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/>
                                     </svg>
-                                    46.4 MB used
+                                    46.8 MB used
                                 </div>
                                 <div class="field ">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -2569,7 +2569,7 @@
                                 <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
                             </svg>
                             From
-                            <span class="blue space">PerchunPak/autodonate</span>
+                            <span class="blue space">fire-square/autodonate</span>
                         </div>
                     </section>
                     <section class="largeable-column-fields">
@@ -2577,7 +2577,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 1 May 2022, 10:43:50
+                            On 1 May 2022, 13:17:22
                         </div>
                     </section>
                 </div>
@@ -2587,232 +2587,37 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Cofob/sccreenshot (#1)
+                            Change Source Folder style to Django (#119)
 
-* Svelte &amp; Bulma = ♥
+* Change Source Folder style to Django
 
-* Update
+* Fix mypy errors
 
-* Add logo
+* Update poetry.lock
 
-* Add Modal.svelte
-
-* Update
-
-* Add deduplication and pay url generation to Donate
-
-* Add fancy Donate buttons
-
-* Fix pay_url generation
-
-* Fix pay button disabled state
-
-* add about button to donate
-
-* move +/- buttons
-
-* Fix tests
-
-* Fix docstring
-
-* Fix typo
-
-* Remove useless files
-
-* More
-
-* Add Svelte CI/CD (#105)
-
-* Squashed commit of the following:
-
-commit 8f48f44d83671005b82a9cb26a46feb1af5e1e29
-Author: Vasiliy Petrov &lt;cofob@riseup.net&gt;
-Date:   Thu Apr 28 23:08:26 2022 +0700
-
-    Moved to dataclasses-json
-
-commit 5ddef0b53faecc9bcbbf2c87188310707248cae1
-Author: Vasiliy Petrov &lt;cofob@riseup.net&gt;
-Date:   Thu Apr 28 23:08:06 2022 +0700
-
-    Add dataclasses-json dependency
-
-commit 1a358388f16fd41dac7717ff22fc0f6595ee7fb9
-Merge: af23f10 a24253d
-Author: Vasiliy Petrov &lt;cofob@riseup.net&gt;
-Date:   Thu Apr 28 22:13:17 2022 +0700
-
-    Merge branch 'cofob/add-npm-cicd' of github.com:fire-square/autodonate into cofob/add-npm-cicd
-
-commit af23f106c71313ac5d3cca08602ac86cd80eda29
-Author: Vasiliy Petrov &lt;cofob@riseup.net&gt;
-Date:   Thu Apr 28 22:13:11 2022 +0700
-
-    Remove deploy script
-
-commit e3fe55796586277c953f768b6c86935618a8f1fa
-Author: Vasiliy Petrov &lt;cofob@riseup.net&gt;
-Date:   Thu Apr 28 22:12:57 2022 +0700
-
-    Update
-
-commit a24253d5279bfb4f10378f1d60519c70328f3a10
-Author: github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;
-Date:   Thu Apr 28 15:12:54 2022 +0000
-
-    Update poetry.lock
-                            <img class="gemoji" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAANaElEQVR4Ae3Ba2yd5WHA8f85fn3JxU58SMpxqIMJlk1JoAlrE6CFAgPWQtfRlW7tOqFsnTpN6y5StQ+bpn2YtA9TpapVNWlat2lV221MK6O0RWBoKRR6g3aksCYYljTGl+M4sX3s49jx5fzH8/q8joG8T/y9+/34RVfgNffcc8/2tra2/fwCWVhYeP7BBx+cTnhNW1vb/jvvvPOJrq4uYiqVCkG5XCamUqkQlMtlYiqVCkG5XCamUqkQlMtlYiqVCkG5XCZmbGyMgYGBW4HvJDR0dXWxd+9eNm3aRJ7BwUGCvr4+YgYHBwn6+vqIGRwcJOjr6yNmcHCQoK+vj5jBwUGCvr4+8szPz7NeQoNKW1sbpVKJPB0dHQSlUomYjo4OglKpRExHRwdBqVQipqOjg6BUKhHT0dFBUCqVyHPmzBlUMgnrqKhcjMpGqGyEykaobITKevXqFCwuUtx5KSrrJTSoqKjkUQlUYlQClRiVQCVGJVCJUQlU1tTr1P7kMFanab9/ABWVTEKDSqCSRyVQiVEJVGJUApUYlUAlRiVQySw/933qlVGKu7ohaSZQySSso6JyMSobobIRKhuhshEqmcWBhwia7/xVVFTWS2hQUVHJoxKoxKgEKjEqgUqMSqASoxKopGZnWPnRM9DURHLb+1BRUckkrKOg5FJSSpSSUqKUlBKlpJQoJaWklh//Ji4tkhx8N3TuQEF5nYSGsUqFl195mY6ODvIMDQ0RiMQMDQ0RiMQMDQ0RiMQMDQ0RiMQMDQ0RiATlhx+gBRi7+gDzx44SzMzMMFapkEnIKCgouZSUEqWklCglpUQpKSVKSSmtQ8dpGRum3r6Nhf5rQEkpKJmEhnK5zJVXXkmpVOJi+vv72Yj+/n42or+/n43o7+9nI/r7+1l87EFWgJY77qbv6qvJTE5OMjMzQyahQUVFJY9KoBKjEqjEqAQqMSqBSoxKUJ8/y8rT3yJouu0uVDIqKpmEBhUVlTwqgUqMSqASoxKoxKgEKjEqQf2ZJ2D+LIW3XQOX7UYlo6KSSWhQUVHJoxKoxKgEKjEqgUqMSqASoxIsP/YNgqbb70ZlPRWVTMI6KioXo7IRKhuhshEqF9N8ehxfehHaNlG4/j2orKeyXsIbqORRCVRiVAKVGJVAJUYlUIlRaX/2aVCK7/5lbG0DJSahQUFByaWklCglpUQpKSVKSSlxK3W2/vcPSN12F8qbKChrEhpUVFTyqAQqMSqBSoxKoBKjEqjEbDp6hKbZKnT3QO9VqLyRikomoeHUqXGOH/9f2tvbyTM8PMwqiRkeHmaVxAwPD7NKYoaHh1klMZ3PPE5wet87mB58iQuZnZ3l1KlxMgkNAgKST1ZJnKySOFklcbJK8jXNzlB69Tj1YhMzBw4hFyYg5yU07Ny5k56eHjo7O8mjEvT29hKjEvT29hKjEvT29hKjEvT29pLrwX+jUK9T23cdV1y7nzxTU1NUq1UyCRlFRSWPSqASoxKoxKgEKjEqgcoFKcXvPEpQPXADW5Q8KiiZhHVUVHIpgUqUEqhEKYFKlBKoXNDRn0JlhOVtnZy98ipU8qisl7CegnJRyoYoG6JsiHIhxSceIageuB4LBVByKeslNKioqORRCVRiVAKVGJVAJUYlUHmTs3MUfvQ0FApMX3sQFZU8KiqZhAYFBSWXklKilJQSpaSUKCWlvEnxe0/A4jncu5/Fzh0gKLkUlDUJDSogKnlUApUYlUAlRiVQYWmJ4rEX8OprsSlhPZVA5Y2KTw4QrLznTlQClXyikklYIwoq+SRQiZNAJU4CleYvfIbiD57ES3ex/NHfo37gEOdJoLJe8dWfUzjxMm7eysp1N8LQSQKVPMprJJPQMDExwYkTJ2hvbyfP6OgIgRI1OjpCoESNjo4QbHv+h1z2gycJCuOjNH/2r5m7oo/KHR9k4dJdjI6OECivU370AS4BpvYeYOzkSUZHRwiUXLOzs0xMTJBJaBAQEckjq0RiZJVIjMDmmSm6Hv0qwcgHPgordcrfeZgtJwa58gufZnrfdUxcc4jFTVsQyRRWltn24nMEk/sPISKrRPKIyHkJDTt27ODyyy9n+/bt5FEJ9uzZQ4xKsGfPHqKWl9nzyP0Uz51j+eC76fzgRwkW7/o1km9+leaBh9j+wnPc/NILTFx/K+2HDkFzM0HTD79LcnaO+uVXsuvGmwlUgj179pBnenqa2dlZMgkZRUUllxKoRCmBSkz5219n88hJfEuZxcOfRCVw0xYW772PpZtup+WrXyZ57hkufeoR6v/zY5Y++DGWb7yV5KkBgqWb70AlpQQqeVRQMgkNAioqeWSVSoysUsmTvPATdvzoKWxqYv4Tn6Le2gbKer6li4U/+DMmvrWPrse+RttEhdZ//CzNTw1QfPkYtLSwfPAmVAJZpZJHRc5LaFBRUcmjEqhkCrNV3LwVmprIqAQqF1KoTtP6T58DpXLz+9ja0wtKnpmePmY//in6Xn2Zlof+neLgzwiWr7uB+qbNoAQqgUoeFZVMQoOCgpJLSSmp5JWjbP70X7Lcfw1n//SvoFgkUFLKm1ln0z99jsJsldkr+jh1/S1skSgFC0UWb3kfSwdvpuWb/0HzCz9h4fYPoKxRUkouBWVNQkZRUcmlBCqF+gqtX/57qNdJjh6h9YEvsfCh+0gpgcobtQw8RPKz57F9G0Pv/wgKKlFKoOKmzSzce5iFew+TUtYogUoeFZRMkTWCgoKCgoKCggICgtLyrYdpGhnC7SVsaqJ14Gs0P/cMKCAgKCgoKE0/f4W2//oKFAqcPfxJlra0A4KCgoKCgoKCAgKCgoKCgoKCggICgoKCgoKCgoICkinyOqKioqKioqKioMD0FK3fuJ9g7mO/z8KH7gNl0xf/juLIEAoKKioqnJtn8z9/jsLKMgu33c3S3gMoKKioqKioqKioKCioqKioqKioqCgoqKioqKioqICsl9AwMXGakyeH2Lp1kjxjY2MEPQ99hcL8Wab79nF8Syds6eTyfe/gkhefo+Xzf8PEr/wGS82tqGR6Hr6fYmWE+Z1ljr39Rjx+nLGxMQKVmLGxMQKVmLGxMQKVPLVajYmJ02SKrBEVFRUVFRUVFZDSqWE6jx2hnjQzfOv7UVE5efs9nL10F61Tp9n/9CMUqKOi0nnsCKUXf0y9uYXjH/ht6k1NqICAqKioqKioqKiAgKioqKioqKiogICoqKioqKioqIBkEhouueQSund3s23bNvIU68u87eF/BWXh7nvpevsB1lv85F/Q9rd/zluGj7P/xFFab7iR4ulTbB94gGD+N3+X8i+9k/Mk6LmihzgJeq7oIU6Cnit6yFOtVqnVZskUaRBQUVFRUVFRUdn57HdpO3OKlZ1lzt52FyoqKirLpR3M/s4fY6FA19OP0XzkWbb+y+cpLMxz7sAh5m+4BRUVFQEBFRUVFRUVFRUBARUVFRUVFRUVAQEVFRUVFRUVFTkvoUFFReVCmqbOsOv73yaofeTj2JSA8kaL/fsYfdcdXPb0AB3/8BmwzkppJ7O/9QlU1lMJVGJUApUYlUAlj4pKJiEjKCgXtOU/v0hxaZEz/dey0rcPJNfIwVvYXBmm85WfYbHIzOE/ot62GeR1lJQSpaSUKCWl5FJA1iSsERWVN2o9eoTWI8+y0tLCq++5iy7lYo6/98Ps/f5jLPbvY7GnF5Q3UQKVKCVQiVIClTwqIJmEBgEVlddZXmLrA18iGLnhds5tbUclRmS5pYXp+/6QlHIhIoFKjEigEiMSqORRkfMSGhRUVNZrf/zrJOOjLHe9lbG3X4+CSoySUolRUioxSkolRkmp5FFR1iQ0qKCoZJqmzrDl8a9DocD0r99HvVgERSVGJVCJUQlUYlQClRiVQCWXopJJaJg8c4bh4WG2TE2RueqhL1NYWmTibft5JdnEeKVCSokZHx8npcSMj4+TUmLGx8dJKTHj4+OklDxzc3NMnjlDJmGNgIAEnceP0XniJVZaWjn5rjsAAVklcbJK4mSVxMkqiZNVkk9AMgkNnZ0ldu26jI6ODgpLS1z6pc8TzN79YcpX7SVQUt3du4lRUt3du4lRUt3du4lRUt3du4lRUt3du8kzMzPD7GyNTMIaERHpePxrJJMTLHW9ldoNtyISiAQiMSKBSIxIIBIjEojEiAQieURAMgkNAgpNp0/R/uSjUCgy+aHD1AtFkJSSUqKUlBKlpJQoJaVEKSkll4Kcl5ARVLZ+79sUlpeoHbyJhd17QFmjBCpRSqASpQQqUUqgEqUEKnlUkDUJDSIqs++8CYsFqrfcjcp6IoFKjEigEiMSqMSIBCoxIoFKHhWRTEKDgsrizjKT772XlLKeklKJUVIqMUpKJUZJqcQoKZU8KsqahAYVFZU8KoFKjEqgEqMSqMSoBCoxKoFKHhWVTEJGOXfuHDPVKnnmajWCmWqVmLlajWCmWiVmrlYjmKlWiZmr1QhmqlVi5mo1gplqlTznFhdBySQ0TE5NAhIzNT1NMDdXI2Zqeppgbq5GzNT0NMHcXI2Yqelpgrm5GjFT09MEc3M1YianpsgkvGZhYeH5F37601v5BbKwsPA8/w/+D4DSqvcBAz6QAAAAAElFTkSuQmCC" height="16" width="16" alt="" />
-                            [skip ci]
-
-commit 18ede699aa99d509860945709623b77db2596e16
-Author: Vasiliy Petrov &lt;cofob@riseup.net&gt;
-Date:   Thu Apr 28 22:10:16 2022 +0700
-
-    Test
-
-* Add docs
-
-* Fix cofob's docstrings
-
-* Move dataclasses to DB models
-
-* Add player model
-
-* Add media files serve for FileField
-
-* Remove ugly defenition
-
-* Fix typo
-
-* Remove bulma from staticfiles dir
-
-* Upgrade models
-
-* Register models in admin
-
-* Add media folder to gitignore
-
-* Uodate
-
-* Change to ImageField
-
-* Fix tests
-
-* Fix UUID generation
-
-* Update :)
-
-* Add modal, remove about section
-
-* Normal toasts
-
-* Add about anchor
-
-* Remove old toast from base.html
-
-* Working modal (broken backdrop)
-
-* Impemented about for Donate
-
-* Fix pay url generation
-
-* Fix warn
-
-* Use POST instead of GET request for pay button
-
-* Fix ci
-
-* Add empty stubs
-
-* Add comments
-
-* More comments
-
-* Add dot
-
-* Typo
-
-* Add handler to `urlpatterns` with decorator
-
-* Add TokenField
-
-* Fix mypy
-
-* Add docstring
-
-* Make API return true JSON
-
-* Add djangorestframework
-
-* Move docs deps to dev section
-
-* Changed to REST API framework
-
-* Fix svelte widgets
-
-* Add rate limits
-
-* Fix
-
-* Fix z-index toast
-
-* Revert "Move docs deps to dev section"
-
-This reverts commit 310d332985df77c0ff509ae1d3c557815253e125.
-
-* Fix warnings
-
-* Use special svelte file for index page
-
-* Fix btn on mobile
-
-* Md support for Modals &amp; Donate about section
-
-* Migrate to TypeScript
-
-* Replace tabs to spaces
-
-* Revert "Migrate to TypeScript"
-
-This reverts commit 86df07f325d8ce572ed236f9f1fcaa7617c2d4f6.
-
-* Create screenshot.yml
-
-* Upd
-
-* Revert "Revert "Migrate to TypeScript""
-
-This reverts commit d442b6f338904bb780a9607feb9a5b981dbc21ec.
-
-* Upd
-
-* Fix
-
-* Fix all TypeScript errors
-
-Co-authored-by: Vasiliy Petrov &lt;cofob@riseup.net&gt;
+* Use `tomli` instead of `tomlkit`
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">59c130f7</span>
-                            <span class="code">svelte/src/declarations/donate.ts</span>
-                            <span class="code"><span class="snippet additions">++8</span> <span class="snippet deletions">--0</span></span>
+                            <span class="code">7fab5a55</span>
+                            <span class="code">docs/remove_trash.py</span>
+                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,8 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import Hero from '../ui/Donate.svelte';<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">const app = new Hero({<br /></span><span class="token prefix inserted">+</span><span class="token line">   target: document.getElementById("donate-target"),<br /></span><span class="token prefix inserted">+</span><span class="token line">   props: JSON.parse(document.getElementById("donate-props").textContent),<br /></span><span class="token prefix inserted">+</span><span class="token line">});<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">export default app;</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -3,7 +3,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">from os import remove<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">def remove_trash():<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">def remove_trash() -&gt; None:<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"> """Remove residual trash generated by `sphinx`."""<br /></span><span class="token prefix unchanged">·</span><span class="token line"> for file in glob("modules/autodonate*.rst"):<br /></span><span class="token prefix unchanged">·</span><span class="token line">     remove(file)</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 4 May 2022, 05:22:34 (timezone Europe/Warsaw) with lowlighter/metrics@3.23.0</span>
+                <span>Last updated 4 May 2022, 06:27:38 (timezone Europe/Warsaw) with lowlighter/metrics@3.23.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
