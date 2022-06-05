@@ -655,17 +655,17 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Python</span>
-                                <div class="bar" style="width: 16.687170064001744%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 16.638329372345815%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">21%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Dockerfile</span>
-                                <div class="bar" style="width: 0.6060700437578834%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.6065375774340593%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">1%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Mako</span>
-                                <div class="bar" style="width: 0.1308064842642914%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.13090739081310632%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -2558,7 +2558,7 @@ At now, actual workaround will be:
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">ee7429e6</span>
-                            <span class="code">docs/locale/uk_UA/LC_MESSAGES/pages/changelog.po</span>
+                            <span class="code">docs/locale/uk_UA/LC_MESSAGES/pages/contributing.po</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
@@ -2566,14 +2566,14 @@ At now, actual workaround will be:
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -11,7 +11,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"PO-Revision-Date: 2022-06-02 21:12+0200\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Last-Translator: Perchun Pak &lt;perchunpak@gmail.com&gt;\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Language-Team: Perchun Pak &lt;perchunpak@gmail.com&gt;\n"<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"Language: uk\n"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"Language: uk_UA\n"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"MIME-Version: 1.0\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Content-Type: text/plain; charset=utf-8\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Content-Transfer-Encoding: 8bit\n"</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -11,7 +11,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"PO-Revision-Date: 2022-06-02 21:12+0200\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Last-Translator: Perchun Pak &lt;perchunpak@gmail.com&gt;\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Language-Team: Perchun Pak &lt;perchunpak@gmail.com&gt;\n"<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"Language: uk\n"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"Language: uk_UA\n"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"MIME-Version: 1.0\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Content-Type: text/plain; charset=UTF-8\n"<br /></span><span class="token prefix unchanged">·</span><span class="token line">"Content-Transfer-Encoding: 8bit\n"</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 5 Jun 2022, 03:16:32 (timezone Europe/Warsaw) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 5 Jun 2022, 05:07:59 (timezone Europe/Warsaw) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
