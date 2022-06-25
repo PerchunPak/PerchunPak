@@ -659,12 +659,12 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Python</span>
-                                <div class="bar" style="width: 35.4254828290818%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="width: 35.428420775112045%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 <span class="value">44%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Dockerfile</span>
-                                <div class="bar" style="width: 0.3849449607804364%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.38491958871605586%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
@@ -2580,13 +2580,13 @@ Co-authored-by: Nikolay &lt;60034902+RuscalWorld@users.noreply.github.com&gt;</d
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Добавил ноду `venus` в таблицу нод (#23)
+                            Добавил ноду `mars` в таблицу нод
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">770f200d</span>
+                            <span class="code">28b65216</span>
                             <span class="code">pages/docs/ip.md</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--0</span></span>
                         </div>
@@ -2595,14 +2595,14 @@ Co-authored-by: Nikolay &lt;60034902+RuscalWorld@users.noreply.github.com&gt;</d
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -12,6 +12,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">| mars.host.mineserver.xyz       | 168.119.145.214 | Да      |<br /></span><span class="token prefix unchanged">·</span><span class="token line">| newton.host.mineserver.xyz     | 5.182.5.7       | Нет     |<br /></span><span class="token prefix unchanged">·</span><span class="token line">| rutherford.host.mineserver.xyz | 5.188.159.125   | Да      |<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">| venus.host.mineserver.xyz      | 136.243.103.125 | Да      |<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">| wind.host.mineserver.xyz       | 5.188.141.184   | Да      |<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">---</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -8,6 +8,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">| cult.host.mineserver.xyz       | 185.186.143.152 |<br /></span><span class="token prefix unchanged">·</span><span class="token line">| einstein.host.mineserver.xyz   | 5.188.119.139   |<br /></span><span class="token prefix unchanged">·</span><span class="token line">| fourier.host.mineserver.xyz    | 91.206.15.18    |<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">| mars.host.mineserver.xyz       | 168.119.145.214 |<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">| newton.host.mineserver.xyz     | 5.182.5.7       |<br /></span><span class="token prefix unchanged">·</span><span class="token line">| rutherford.host.mineserver.xyz | 5.188.159.125   |<br /></span><span class="token prefix unchanged">·</span><span class="token line">| wind.host.mineserver.xyz       | 5.188.141.184   |</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 25 Jun 2022, 20:16:47 (timezone Europe/Warsaw) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 25 Jun 2022, 21:11:05 (timezone Europe/Warsaw) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
