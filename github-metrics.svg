@@ -2567,7 +2567,7 @@ Co-authored-by: Nikolay &lt;60034902+RuscalWorld@users.noreply.github.com&gt;</d
                                 <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
                             </svg>
                             From
-                            <span class="blue space">PerchunPak/mcstatus</span>
+                            <span class="blue space">PerchunPak/pytest-mock</span>
                         </div>
                     </section>
                     <section class="largeable-column-fields">
@@ -2575,7 +2575,7 @@ Co-authored-by: Nikolay &lt;60034902+RuscalWorld@users.noreply.github.com&gt;</d
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 23 Jun 2022, 12:56:38
+                            On 24 Jun 2022, 19:55:41
                         </div>
                     </section>
                 </div>
@@ -2585,29 +2585,29 @@ Co-authored-by: Nikolay &lt;60034902+RuscalWorld@users.noreply.github.com&gt;</d
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Add `reset` and `strikethrough` to `STYLE_MAP`
+                            Fix test to correctly assert type
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">f03a65ba</span>
-                            <span class="code">mcstatus/tests/test_pinger.py</span>
-                            <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--1</span></span>
+                            <span class="code">3e70ddac</span>
+                            <span class="code">tests/test_pytest_mock.py</span>
+                            <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--2</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -170,7 +170,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    }<br /></span><span class="token prefix unchanged">·</span><span class="token line">)<br /></span><span class="token prefix unchanged">·</span><span class="token line">assert out == (<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    " ===============§f §lC§lr§le§la§lt§li§lv§le§lF§lu§ln ===============§f \n"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    " §m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§f §lC§lr§le§la§lt§li§lv§le§lF§lu§ln"<br /></span><span class="token prefix inserted">+</span><span class="token line">    " §m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§m=§f \n"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    " §lThe server has been updated to §l1.17.1"<br /></span><span class="token prefix unchanged">·</span><span class="token line">)<br /></span><span class="token prefix unchanged">·</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -237,8 +237,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    self.__test_failure_message(mocker, name=name)<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">@pytest.mark.skipif(sys.version_info[:2] &lt; (3, 8), reason="This Python version doesn't have `AsyncMock`.")<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">def test_async_stub_type(self) -&gt; None:<br /></span><span class="token prefix deleted">-</span><span class="token line">    assert type(mocker.async_stub()) == AsyncMock<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">def test_async_stub_type(self, mocker: MockerFixture) -&gt; None:<br /></span><span class="token prefix inserted">+</span><span class="token line">    assert isinstance(mocker.async_stub(), AsyncMock)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">def test_instance_method_spy(mocker: MockerFixture) -&gt; None:</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 Jun 2022, 08:15:58 (timezone Europe/Warsaw) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 26 Jun 2022, 09:12:25 (timezone Europe/Warsaw) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
