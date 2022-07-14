@@ -1,1 +1,1 @@
-![Metrics](https://github.com/PerchunPak/PerchunPak/blob/main/github-metrics.svg)
+![Metrics](https://github.com/PerchunPak/PerchunPak/blob/master/github-metrics.svg)
