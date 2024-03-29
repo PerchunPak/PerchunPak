@@ -24,9 +24,9 @@ jobs:
           committer_gist: c825bee339857f064a9f1829674bae1e
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Warsaw
+          config_timezone: Europe/Prague
           commits_authoring: Perchun Pak, PerchunPak, perchunpak@users.noreply.github.com, perchunpak@gmail.com, git@perchun.it
-          
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
