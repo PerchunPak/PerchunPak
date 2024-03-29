@@ -81,12 +81,6 @@ jobs:
           plugin_introduction: yes
           plugin_pagespeed: yes
           plugin_pagespeed_url: "https://perchun.it"
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_sections: time,projects,projects-graphs,languages,languages-graphs,editors,editors-graphs,os,os-graphs
-          plugin_wakatime_limit: 10
-          plugin_wakatime_languages_other: yes
-          plugin_wakatime_repositories_visibility: public
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_API_TOKEN }}
           plugin_steam_user: ${{ secrets.STEAM_ACCOUNT_ID }}
