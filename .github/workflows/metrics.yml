@@ -1,8 +1,8 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
-  # Schedule updates (each 6 hours)
-  schedule: [{cron: "0 0/6 * * *"}]
+  # Schedule updates (once a day)
+  schedule: [{cron: "36 18 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push:
@@ -24,7 +24,7 @@ jobs:
           committer_gist: c825bee339857f064a9f1829674bae1e
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Prague
+          config_timezone: UTC
           commits_authoring: Perchun Pak, PerchunPak, perchunpak@users.noreply.github.com, perchunpak@gmail.com, git@perchun.it
 
           plugin_introduction: yes
