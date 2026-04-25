@@ -13,7 +13,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: mikey-/metrics@master
+      - uses: mikey-/metrics@main
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
