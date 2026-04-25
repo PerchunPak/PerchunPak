@@ -32,20 +32,20 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_followup_sections: "repositories,user"
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 30
-          plugin_habits_facts: no
-          plugin_habits_from: 1000
-          plugin_habits_languages_limit: 0 # broken
+          # plugin_habits: yes
+          # plugin_habits_charts: yes
+          # plugin_habits_days: 30
+          # plugin_habits_facts: no
+          # plugin_habits_from: 1000
+          # plugin_habits_languages_limit: 0 # broken
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_reactions: yes
-          plugin_reactions_details: "count,percentage"
-          plugin_reactions_limit: 1000
-          plugin_reactions_limit_discussions: 1000
-          plugin_reactions_limit_discussions_comments: 1000
-          plugin_reactions_limit_issues: 1000
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: A
+          # plugin_reactions: yes
+          # plugin_reactions_details: "count,percentage"
+          # plugin_reactions_limit: 1000
+          # plugin_reactions_limit_discussions: 1000
+          # plugin_reactions_limit_discussions_comments: 1000
+          # plugin_reactions_limit_issues: 1000
+          # plugin_achievements: yes
+          # plugin_achievements_display: compact
+          # plugin_achievements_threshold: A
