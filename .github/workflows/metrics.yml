@@ -31,7 +31,7 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_followup_sections: "repositories,user"
-          # plugin_traffic: yes
+          plugin_traffic: no
           # plugin_habits: yes
           # plugin_habits_charts: yes
           # plugin_habits_days: 30
