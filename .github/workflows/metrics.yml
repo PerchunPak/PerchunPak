@@ -23,7 +23,7 @@ jobs:
           output_action: gist
           committer_gist: c825bee339857f064a9f1829674bae1e
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, community, repositories, metadata
           config_timezone: UTC
           commits_authoring: Perchun Pak, PerchunPak, perchunpak@users.noreply.github.com, perchunpak@gmail.com, git@perchun.it
 
@@ -31,7 +31,7 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_followup_sections: "repositories,user"
-          plugin_traffic: no
+          # plugin_traffic: no
           # plugin_habits: yes
           # plugin_habits_charts: yes
           # plugin_habits_days: 30
